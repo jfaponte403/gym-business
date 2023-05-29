@@ -1,0 +1,42 @@
+.progress {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.progress__nav {
+    flex: 0 0 25%;
+    padding: 20px;
+}
+
+.progress__content {
+    flex: 1;
+    padding: 20px;
+}
+
+.progress__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.progress__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.progress__table-header {
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.progress__table-row {
+    border-bottom: 1px solid #ccc;
+}
+
+.progress__table-cell {
+    padding: 10px;
+}

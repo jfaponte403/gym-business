@@ -1,0 +1,41 @@
+.personal-data {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.personal-data__nav {
+    flex: 0 0 25%;
+    padding: 20px;
+}
+
+.personal-data__content {
+    flex: 1;
+    padding: 20px;
+}
+
+.personal-data__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.personal-data__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.personal-data__row {
+    border-bottom: 1px solid #ccc;
+}
+
+.personal-data__label {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.personal-data__value {
+    padding: 10px;
+}

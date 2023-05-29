@@ -1,0 +1,45 @@
+.admin-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-page__nav {
+    width: 20%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.admin-page__content {
+    flex: 1;
+    padding: 20px;
+}
+
+.admin-page__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.admin-page__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-page__table-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.admin-page__table-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.admin-page__table-cell {
+    padding: 10px;
+}
+
+/* Hover style for table rows */
+.admin-page__table-row:hover {
+    background-color: #e0e0e0;
+}

@@ -1,0 +1,29 @@
+.admin-nav {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-nav-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.admin-nav-link {
+    display: block;
+    margin-bottom: 8px;
+    padding: 10px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.admin-nav-link:hover {
+    background-color: #d6d6d6;
+    color: #555;
+}
